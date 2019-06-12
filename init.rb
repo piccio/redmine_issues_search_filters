@@ -15,7 +15,7 @@ Redmine::Plugin.register :redmine_issues_search_filters do
   name 'Redmine Issues Search Filters plugin'
   author 'Roberto Piccini'
   description 'add the issues filters to the search'
-  version '1.0.3'
+  version '1.0.4'
   url 'https://github.com/piccio/redmine_issues_search_filter'
   author_url 'https://github.com/piccio'
 end
