@@ -1,3 +1,5 @@
 = redmine_issues_search_filters
 
-tested on redmine 3.4.4
+use version 1.x with redmine 3.x (tested on redmine 3.4.4)
+
+use version 2.x with redmine 4.x (tested on redmine 4.0.4)

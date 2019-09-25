@@ -10,7 +10,7 @@ module RedmineIssuesSearchFilters
       # in this way also the 'top-right search' searches over all issues.
       params['f'] = [''] unless params.has_key?('f')
 
-      issue_params = params.symbolize_keys
+      issue_params = params.to_unsafe_h.symbolize_keys
       issue_params[:project_id] = params[:id] if params.has_key?(:id)
 
       issue_query = IssueQuery.new(name: 'piccio', project: @project)
